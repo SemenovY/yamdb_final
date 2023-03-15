@@ -1,5 +1,5 @@
 python-dotenv==1.0.0
-Django==2.2.20
+Django==3.2
 django-filter==22.1
 django-stubs==1.13.2
 django-stubs-ext==0.7.0
@@ -7,5 +7,7 @@ django-templated-mail==1.1.1
 djangorestframework==3.12.4
 djangorestframework-simplejwt==4.8.0
 djoser==2.1.0
-pytz==2021.1
-sqlparse==0.4.1
+#pytz==2021.1
+pytz==2022.7.1
+#sqlparse==0.4.1
+sqlparse==0.4.3
