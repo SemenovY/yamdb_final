@@ -1,10 +1,10 @@
 ### Яндекс.Практикум 
-## Проект: запуск docker-compose
+## Проект: Работа с GitHub actions
 ### Описание
 Настройка для приложения Continuous Integration и Continuous Deployment: 
 - автоматический запуск тестов,
 - обновление образов на Docker Hub,
-- автоматический деплой на боевой сервер при пуше в главную ветку main.
+- автоматический деплой на боевой сервер при пуше в главную ветку main/master.
 ***
 Цель работы над проектом - получить опыт работы Ci/CD.
 
@@ -12,7 +12,7 @@
 
 ### Задание. ###
 
-Клонируйте репозиторий yamdb_finalи скопируйте в него проект api_yamdb . 
+Клонируйте репозиторий yamdb_final и скопируйте в него проект api_yamdb. 
 Для этого проекта у вас уже настроен docker-compose для трёх контейнеров — web, db и nginx.
 Создайте workflow для репозитория yamdb_final на GitHub Actions и дайте ему название yamdb_workflow.yml.
 Проверьте настройки файла docker-compose.yaml: он должен разворачивать контейнер web, используя образ, который вы создали на Docker Hub.
@@ -51,7 +51,7 @@
 git clone https://github.com/yandex-praktikum/
 cd yamdb_final
 ```
-```bash
+```bash:
 docker-compose up
 ```
 ***
