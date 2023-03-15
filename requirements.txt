@@ -64,7 +64,7 @@ pbr==5.11.1
 platformdirs==2.6.2
 pluggy==0.13.1
 py==1.11.0
-pycodestyle==2.8.0
+#pycodestyle==2.8.0
 pycparser==2.21
 # pydocstyle==6.3.0
 pyflakes==2.4.0
