@@ -56,14 +56,14 @@ docker-compose up
 ```
 ***
 
-### команды для заполнения базы данными:
+### Команды для заполнения базы данными:
 
 Теперь в контейнере web нужно выполнить миграции
 ```bash
 docker-compose exec web python manage.py migrate
 ```
-Cоздать суперпользователя и собрать статику. 
-Выполните по очереди команды:
+Чтобы создать суперпользователя и собрать статику, 
+выполните по очереди эти команды:
 ```bash
 docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic --no-input
