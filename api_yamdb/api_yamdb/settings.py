@@ -42,11 +42,11 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'api_yamdb.urls'
-TEMPLATES_DIR = BASE_DIR / 'templates'
+TEMPLATES_DIR = os.path.join(BASE_DIR / 'templates')
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': (TEMPLATES_DIR),
+        'DIRS': [TEMPLATES_DIR],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -130,5 +130,5 @@ AUTH_USER_MODEL = 'users.User'
 EMPTY_VALUE = '-пусто-'
 
 EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
-EMAIL_FILE_PATH = BASE_DIR / 'sent_emails'
+EMAIL_FILE_PATH = os.path.join(BASE_DIR / 'sent_emails')
 FROM_EMAIL_DEFAULT = 'test@email.com'
