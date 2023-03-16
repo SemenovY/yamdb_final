@@ -1,6 +1,9 @@
 ### Яндекс.Практикум 
 ## Проект: Работа с GitHub actions
-### К проекту можно обраться по адресу http://jurgensblog.sytes.net/ 
+### К проекту можно обраться по адресу:
+- http://jurgensblog.sytes.net/admin
+- http://jurgensblog.sytes.net/redoc
+- http://jurgensblog.sytes.net/api/v1/
 ### Описание
 Настройка для приложения Continuous Integration и Continuous Deployment: 
 - автоматический запуск тестов,
