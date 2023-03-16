@@ -1,8 +1,7 @@
 # .github/workflows/**yamdb_workflow.yml**
 name: Django-app workflow
 
-on:
-  push: [ master ]
+on: [push]
 
 jobs:
   tests:
