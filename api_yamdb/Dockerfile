@@ -8,9 +8,9 @@ RUN pip3 install -r /app/requirements.txt --no-cache-dir
 
 COPY ./ .
 
-RUN docker-compose exec web python manage.py collectstatic
+CMD ["gunicorn", "api_yamdb.wsgi:application", "--bind", "0:8000" ]
 
-CMD ["gunicorn", "api_yamdb.wsgi:application", "--bind", "0:8000" ] 
+RUN docker-compose exec web python manage.py collectstatic
 
 LABEL author='Yuriy Semenov' version=1.0.0
 
