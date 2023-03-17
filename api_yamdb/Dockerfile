@@ -12,3 +12,5 @@ CMD ["gunicorn", "api_yamdb.wsgi:application", "--bind", "0:8000" ]
 
 LABEL author='Yuriy Semenov' version=1.0.0
 
+RUN python manage.py collectstatic
+
