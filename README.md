@@ -110,14 +110,16 @@
 ***
 
 
-### Как запустить проект:
+## Инструкция по развёртыванию проекта
 
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```bash
-git clone https://github.com/yandex-praktikum/
-cd api_yamdb
+git clone git@github.com:SemenovY/yamdb_final.git
+cd yamdb_final
 ```
+
+***
 
 Cоздать и активировать виртуальное окружение:
 
@@ -161,6 +163,9 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
+```bash:
+docker-compose up
+```
 ```
 Если получаем ошибку с simplejwt при запуске тестов, то устанавливаем зависимость:
 
@@ -203,30 +208,8 @@ http://127.0.0.1:8000/admin
 
 ***
 
-***Над проектом работали:***
-* Дубровин Антон  | Github:https://github.com/anton-dubrovin | Тимлид, кастомная модель User, регистрация и аутентификация пользователей.
-* Отрашкевич Михаил  | Github:https://github.com/KlemixSurfer | Разработчик, контент Администратора.
-* Семёнов Юрий  | Github:https://github.com/SemenovY | Разработчик, контент пользователей.
-
-
 ### Шаблон наполнения env файла. ###
 ***Готовый шаблон прописан в файле .env.example***
-
-***
-
-
-### Как запустить проект:
-
-Клонировать репозиторий и перейти в него в командной строке:
-
-```bash
-git clone https://github.com/yandex-praktikum/
-cd yamdb_final
-```
-```bash:
-docker-compose up
-```
-***
 
 ### Команды для заполнения базы данными:
 
@@ -241,7 +224,12 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic --no-input
 ```
 
-***Над проектом работал:***
-* Семёнов Юрий  | Github:https://github.com/SemenovY | Разработчик.
 
-![This is an image](https://github.com/SemenovY/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+_____________
+***Над проектом работали:***
+* Дубровин Антон  | Github: [anton-dubrovin](https://github.com/anton-dubrovin) | Тимлид, кастомная модель User, регистрация и аутентификация пользователей.
+* Отрашкевич Михаил  | Github: [KlemixSurfer](https://github.com/KlemixSurfer) | Разработчик, контент Администратора.
+* Семёнов Юрий | GitHub: [SemenovY](https://github.com/SemenovY)| Python developer, контент пользователей.
+
+### *Free Software, Not for commercial use!*
+### =^..^=______/
