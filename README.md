@@ -1,6 +1,5 @@
-### Яндекс.Практикум 
 ## Проект YaMDb (групповой проект). Python-разработчик+ (бекенд)
-## Проект: Работа с GitHub actions
+## Настроена работа с GitHub actions
 ### К проекту можно обраться по адресу:
 - http://jurgensblog.sytes.net/admin
 - http://jurgensblog.sytes.net/redoc
