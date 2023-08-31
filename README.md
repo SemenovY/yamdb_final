@@ -228,7 +228,7 @@ _____________
 ***Над проектом работали:***
 * Дубровин Антон  | Github: [anton-dubrovin](https://github.com/anton-dubrovin) | Тимлид, кастомная модель User, регистрация и аутентификация пользователей.
 * Отрашкевич Михаил  | Github: [KlemixSurfer](https://github.com/KlemixSurfer) | Разработчик, контент Администратора.
-* Семёнов Юрий | GitHub: [SemenovY](https://github.com/SemenovY)| Python developer, контент пользователей.
+* Семёнов Юрий | GitHub: [SemenovY](https://github.com/SemenovY) | Python developer, контент пользователей.
 
 ### *Free Software, Not for commercial use!*
 ### =^..^=______/
